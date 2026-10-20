@@ -1,0 +1,8 @@
+# sensible Konfigurationsdateien ausschließen
+config.json
+
+# Betriebssystem und Editor-Dateien ausschließen
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
