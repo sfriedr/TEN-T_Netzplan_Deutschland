@@ -1,13 +1,18 @@
 # TEN-T Netzsimulation Fokus Deutschland
 Eine Python-Anwendung zur Erstellung eines Graphenmodells des Transeuropäischen Transportnetzes (TEN-T) nach Verordnung (EU) 2024/1679 mit Fokus auf Deutschland sowie Simulation der Angebotsveerteilung der Knoten und späterer Analyse.
+
+### Benutzeroberfläche der Anwendung
 ![Benutzeroberfläche der Anwendung](/docs/screenshots/GUI.png "GUI")
 
 Auf diesem Graphenmodell werden Städte, Häfen und Flughäfen als Knoten modelliert und entsprechende Verbindungen über Straße, Wasser, Schiene und Luft als Kanten. Durch die Integration externer Informationen, wie wirtschaftlicher Kennzahlen oder Kapazitätsannahmen, soll das Modell um realitätsnahe Einflussfaktoren erweitert werden. Auf Basis dieses Modells wird simuliert, wie einzelne Knoten ihre Angebote in t/Jahr an andere Knoten verteilen.
 Dabei werden zentrale Fragestellungen des Supply Chain Managements adressieren. Das inkludiert die Identifikation von Zielknoten als Empfänger von Angeboten, die Analyse von Engpässen und Störungen einzelner Verbindungen durch gezieltes Entfernen von Kanten, wichtige Transitknoten des Netzes, das Aufweisen der Belastungen einzelner Kanten. Des weiteren werden die Transportanteile der Verbindungsarten (Straße, Schiene, Luft, Wasser) ersichtlich sowie die größten Anbieter im Netz. Diese Informationen können über das Menü bezogen werden.
 
 ## Hier ein paar Beispiele, welche Analysen durch das Menü nach der Simulation durchefühert werden können:
+### Engpässe auf Straße, Schiene, Wasser, Luft
 ![Engpässe auf Straße, Schiene, Wasser, Luft](/docs/screenshots/Engpässe.png "Kantenengpässe")
+### Detailansicht der Kantenauslastungen
 ![Detailansicht der Kantenauslastungen](/docs/screenshots/Detaillierte_Kantenbelastungen.png "Engpässe Detailansicht")
+### Angebotsverteilung
 ![Angebotsverteilung](/docs/screenshots/Angebotsverteilung.png "Angebotsverteilung")
 
 ## Technische Implementierung und Bibliotheken
